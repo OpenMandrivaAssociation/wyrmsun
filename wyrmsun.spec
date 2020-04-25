@@ -1,4 +1,6 @@
+%define oengine Wyrmgus
 %define engine  wyrmgus
+%define oname   Wyrmsun  
 
 Name:           wyrmsun
 Version:        3.5.4
@@ -7,8 +9,8 @@ Summary:        Real-time strategy game based on history, mythology and fiction
 Group:          Games/Strategy
 License:        GPLv2+ and CC-BY-SA
 URL:            http://www.indiedb.com/games/wyrmsun
-Source0:        https://github.com/andrettin/wyrmgus/archive/v%{version}/%{engine}-%{version}.tar.gz
-Source1:        https://github.com/andrettin/wyrmsun/archive/v%{version}/%{name}-%{version}.tar.gz
+Source0:        https://github.com/andrettin/wyrmgus/archive/v%{version}/%{oengine}-%{version}.tar.gz
+Source1:        https://github.com/andrettin/wyrmsun/archive/v%{version}/%{oname}-%{version}.tar.gz
 Source3:        wyrmus.png
 Patch0:         wyrmgus-fix-build.patch
 
