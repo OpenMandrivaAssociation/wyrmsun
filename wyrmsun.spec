@@ -9,7 +9,7 @@ License:        GPLv2+ and CC-BY-SA
 URL:            http://www.indiedb.com/games/wyrmsun
 Source0:        https://github.com/andrettin/wyrmgus/archive/v%{version}/%{engine}-%{version}.tar.gz
 Source1:        https://github.com/andrettin/wyrmsun/archive/v%{version}/%{name}-%{version}.tar.gz
-Source3:        %{name}-128.png
+Source3:        wyrmus.png
 Patch0:         wyrmgus-fix-build.patch
 
 BuildRequires:  cmake
