@@ -2,7 +2,7 @@
 
 Name:           wyrmsun
 Version:        3.5.4
-Release:        %mkrel 1
+Release:        1
 Summary:        Real-time strategy game based on history, mythology and fiction
 Group:          Games/Strategy
 License:        GPLv2+ and CC-BY-SA
@@ -30,8 +30,8 @@ BuildRequires:  pkgconfig(zlib)
 BuildRequires:  pkgconfig(x11)
 BuildRequires:  boost-devel
 BuildRequires:  lua5.1-devel
-BuildRequires:  oaml-devel
-BuildRequires:  tolua++-devel
+#BuildRequires:  oaml-devel
+#BuildRequires:  tolua++-devel
 Requires:       %{name}-data >= %{version}-%{release}
 
 %description
