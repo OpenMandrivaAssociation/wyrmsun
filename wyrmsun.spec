@@ -33,7 +33,7 @@ BuildRequires:  pkgconfig(x11)
 BuildRequires:  boost-devel
 BuildRequires:  lua5.1-devel
 #BuildRequires:  oaml-devel
-#BuildRequires:  tolua++-devel
+BuildRequires:  tolua++-devel
 Requires:       %{name}-data >= %{version}-%{release}
 
 %description
