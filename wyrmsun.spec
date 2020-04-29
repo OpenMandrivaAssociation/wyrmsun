@@ -120,5 +120,5 @@ install -D -m644 doc/stratagus.6 \
         %{buildroot}%{_mandir}/man6/%{name}.6
 
 # Icon
-install -D -m644 %{_sourcedir}/%{name}-128.png \
+install -D -m644 %{_sourcedir}/%{name}.png \
         %{buildroot}%{_iconsdir}/hicolor/128x128/apps/%{name}.png
