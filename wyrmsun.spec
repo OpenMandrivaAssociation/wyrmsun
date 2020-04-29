@@ -19,6 +19,7 @@ BuildRequires:  doxygen
 BuildRequires:  pkgconfig(bzip2)
 BuildRequires:  pkgconfig(fluidsynth)
 BuildRequires:  pkgconfig(gl)
+BuildRequires:  pkgconfig(glu)
 BuildRequires:  pkgconfig(libmikmod)
 BuildRequires:  pkgconfig(libmng)
 BuildRequires:  pkgconfig(libpng)
