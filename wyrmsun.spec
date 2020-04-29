@@ -77,7 +77,7 @@ This package contains arch-independent data files for the Wyrmsun game.
        -DWITH_FLUIDSYNTH=ON \
        -DWITH_MNG=ON \
        -DENABLE_USEGAMEDIR=OFF
-%cmake_build
+%make_build
 
 %install
 # Engine binary
