@@ -12,7 +12,7 @@ URL:            http://www.indiedb.com/games/wyrmsun
 Source0:        https://github.com/andrettin/wyrmgus/archive/v%{version}/%{oengine}-%{version}.tar.gz
 Source1:        https://github.com/andrettin/wyrmsun/archive/v%{version}/%{oname}-%{version}.tar.gz
 Source3:        wyrmsun.png
-Patch0:         wyrmgus-fix-build.patch
+#Patch0:         wyrmgus-fix-build.patch
 
 BuildRequires:  cmake
 BuildRequires:  doxygen
