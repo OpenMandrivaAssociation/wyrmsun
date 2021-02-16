@@ -15,6 +15,7 @@ Source3:        wyrmsun.png
 #Patch0:         wyrmgus-fix-build.patch
 
 BuildRequires:  cmake
+BuildRequires:  qmake5
 BuildRequires:  doxygen
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Gui)
