@@ -17,6 +17,7 @@ Source3:        wyrmsun.png
 BuildRequires:  cmake
 BuildRequires:  qmake5
 BuildRequires:  doxygen
+BuildRequires:  pkgconfig(Qt5Location)
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Gui)
 BuildRequires:  pkgconfig(Qt5Location)
