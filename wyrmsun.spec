@@ -21,6 +21,7 @@ BuildRequires:  pkgconfig(Qt5Location)
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Gui)
 BuildRequires:  pkgconfig(Qt5Location)
+BuildRequires:  %{_lib}qt5location-private-devel
 BuildRequires:  pkgconfig(Qt5Multimedia)
 BuildRequires:  pkgconfig(Qt5Qml)
 BuildRequires:  pkgconfig(Qt5Quick)
