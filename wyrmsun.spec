@@ -87,7 +87,8 @@ This package contains arch-independent data files for the Wyrmsun game.
        -DWITH_PHYSFS=ON \
        -DWITH_FLUIDSYNTH=ON \
        -DWITH_MNG=ON \
-       -DENABLE_USEGAMEDIR=OFF
+       -DENABLE_USEGAMEDIR=OFF \
+       -DUSE_GEOJSO=OFF
 %make_build
 
 %install
