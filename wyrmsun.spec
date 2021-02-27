@@ -58,12 +58,12 @@ another, beyond the stars...
 
 %files
 %doc Wyrmsun-%{version}/readme.txt
-%{_metainfodir}/%{name}.appdata.xml
-%{_datadir}/applications/%{name}.desktop
-%{_gamesbindir}/%{name}
+#{_metainfodir}/%{name}.appdata.xml
+#{_datadir}/applications/%{name}.desktop
+#{_gamesbindir}/%{name}
 %{_gamesbindir}/%{engine}
-%{_iconsdir}/hicolor/128x128/apps/%{name}.png
-%{_mandir}/man6/%{name}.6*
+#{_iconsdir}/hicolor/128x128/apps/%{name}.png
+#{_mandir}/man6/%{name}.6*
 
 #----------------------------------------------------------------------
 
