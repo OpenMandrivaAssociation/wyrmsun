@@ -75,7 +75,7 @@ BuildArch:      noarch
 This package contains arch-independent data files for the Wyrmsun game.
 
 %files data
-%{_gamesdatadir}/%{name}/
+#{_gamesdatadir}/%{name}/
 
 #----------------------------------------------------------------------
 
@@ -88,7 +88,10 @@ This package contains arch-independent data files for the Wyrmsun game.
        -DWITH_PHYSFS=ON \
        -DWITH_FLUIDSYNTH=ON \
        -DWITH_MNG=ON \
-       -DENABLE_USEGAMEDIR=OFF
+       -DENABLE_USEGAMEDIR=OFF \
+       -DCMAKE_BUILD_TYPE=Release \
+       -DOpenGL_GL_PREFERENCE=GLVND
+       
 %make_build
 
 %install
