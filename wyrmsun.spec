@@ -92,44 +92,5 @@ This package contains arch-independent data files for the Wyrmsun game.
 %make_build
 
 %install
-# Engine binary
-install -D -m755 build/stratagus %{buildroot}%{_gamesbindir}/%{engine}
+%make_install -C build
 
-# Game data
-pushd Wyrmsun-%{version}
-install -d %{buildroot}%{_gamesdatadir}/%{name}
-cp -a graphics maps music scripts sounds translations oaml.defs \
-      %{buildroot}%{_gamesdatadir}/%{name}
-install -D -m644 linux/wyrmsun.appdata.xml \
-      %{buildroot}%{_metainfodir}/%{name}.appdata.xml
-popd
-
-# Launcher
-install -d %{buildroot}%{_gamesbindir}
-cat << EOF > %{buildroot}%{_gamesbindir}/%{name}
-#!/bin/sh
-%{engine} -d %{_gamesdatadir}/%{name} "\$@"
-EOF
-chmod +x %{buildroot}%{_gamesbindir}/%{name}
-
-# Desktop entry
-install -d %{buildroot}%{_datadir}/applications
-cat << EOF > %{buildroot}%{_datadir}/applications/%{name}.desktop
-[Desktop Entry]
-Name=Wyrmsun
-GenericName=Strategy game
-Comment=Real-time strategy game based on history, mythology and fiction
-Exec=%{name}
-Icon=%{name}
-Terminal=false
-Type=Application
-Categories=Game;StrategyGame;
-EOF
-
-# Manpage
-install -D -m644 doc/stratagus.6 \
-        %{buildroot}%{_mandir}/man6/%{name}.6
-
-# Icon
-install -D -m644 %{_sourcedir}/%{name}.png \
-        %{buildroot}%{_iconsdir}/hicolor/128x128/apps/%{name}.png
