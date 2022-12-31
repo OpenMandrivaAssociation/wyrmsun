@@ -3,7 +3,7 @@
 %define oname   Wyrmsun  
 
 Name:           wyrmsun
-Version:        4.1.4
+Version:        5.3.6
 Release:        1
 Summary:        Real-time strategy game based on history, mythology and fiction
 Group:          Games/Strategy
