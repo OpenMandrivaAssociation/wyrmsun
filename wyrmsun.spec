@@ -8,7 +8,7 @@ Release:        1
 Summary:        Real-time strategy game based on history, mythology and fiction
 Group:          Games/Strategy
 License:        GPLv2+ and CC-BY-SA
-URL:            http://www.indiedb.com/games/wyrmsun
+URL:            https://www.indiedb.com/games/wyrmsun
 Source0:        https://github.com/andrettin/wyrmgus/archive/v%{version}/%{oengine}-%{version}.tar.gz
 Source1:        https://github.com/andrettin/wyrmsun/archive/v%{version}/%{oname}-%{version}.tar.gz
 Source3:        wyrmsun.png
